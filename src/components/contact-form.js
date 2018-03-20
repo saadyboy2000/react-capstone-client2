@@ -92,10 +92,12 @@ export class ContactForm extends React.Component {
 
           <div className = "container">
            
+            {/*}           
              { this.props.isFormCreated &&
                 <Redirect to="/dashboard" />
                 
            }
+            {*/}
            
                <div className = "form-link">
                     <Link to= "/Dashboard" className = "dashboard-link">Go to Dashboard</Link>
@@ -351,7 +353,7 @@ export class ContactForm extends React.Component {
 
 const mapStateToProps = state => {
 
-    const {currentUser} = state.auth;
+    //const {currentUser} = state.auth;
     return {
         username: state.auth.currentUser.username,
         email: state.auth.currentUser.email,

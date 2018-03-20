@@ -5,7 +5,6 @@ import {connect} from 'react-redux';
 import {registerForm} from '../actions/forms';
 import {updateForm} from '../actions/forms';
 import {checkForm} from '../actions/forms';
-import {logOutB} from './log-out';
 import Input from './input';
 import {required, nonEmpty, email} from '../validators';
 import {Link, Redirect} from 'react-router-dom'; 

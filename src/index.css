@@ -21,19 +21,15 @@ body *::before {
           box-sizing: border-box;
 }
 
-
 body{
   background-image: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#e6e6e6));
   background-image: linear-gradient(top, #f2f2f2, #e6e6e6);
 }
 
-
-
 input, textarea, button{
     margin: 6px;
     display: block;
 }
-
 
 h1{
   font-size: 2rem;
@@ -51,14 +47,9 @@ h1 small{
   margin: auto;
 }
 
-
-.title{
-  
+.title{  
 color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: normal; line-height: 48px; margin: 0;
-
 }
-
-
 
 .container{
   position: relative;
@@ -87,14 +78,9 @@ color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: nor
   z-index: -1;
 }
 
-
-
 .welcome{
   text-align: center;
-
 }
-
-
 
 .register{
   display:block;
@@ -108,7 +94,6 @@ color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: nor
   margin:auto;
   text-align: center;
   margin-top:22px;
-
 }
 
 .dashboard-link{
@@ -116,34 +101,29 @@ color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: nor
   font-family: cursive;
 }
 
-
-
 .navbar-brand{
-  position:relative; visibility: visible; 
-  bottom: 40px; 
-
- margin: 0;
-  padding: 0;
-  border-width: 0;
-  border-color: transparent;
-  background: transparent;
-  font-weight: 400;
-  cursor: pointer;
-  position: relative;
-  font-size: 20px;
-  font-family: inherit;
-  padding: 5px 12px;
-  overflow: hidden;
-  border: 1px dotted #fff;
-  border-radius: 4px;
-  background: rgba(255,255,255,0.4);
-  color: #fff;
-  -webkit-transition: opacity 0.3s cubic-bezier(0.02, 0.01, 0.47, 1), box-shadow 0.2s cubic-bezier(0.02, 0.01, 0.47, 1), -webkit-transform 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
-  transition: opacity 0.3s cubic-bezier(0.02, 0.01, 0.47, 1), box-shadow 0.2s cubic-bezier(0.02, 0.01, 0.47, 1), -webkit-transform 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
-  transition: transform 0.3s cubic-bezier(0.02, 0.01, 0.47, 1), opacity 0.3s cubic-bezier(0.02, 0.01, 0.47, 1), box-shadow 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
-  transition: transform 0.3s cubic-bezier(0.02, 0.01, 0.47, 1), opacity 0.3s cubic-bezier(0.02, 0.01, 0.47, 1), box-shadow 0.2s cubic-bezier(0.02, 0.01, 0.47, 1), -webkit-transform 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);;
-
-  
+position:relative; visibility: visible; 
+bottom: 40px; 
+margin: 0;
+padding: 0;
+border-width: 0;
+border-color: transparent;
+background: transparent;
+font-weight: 400;
+cursor: pointer;
+position: relative;
+font-size: 20px;
+font-family: inherit;
+padding: 5px 12px;
+overflow: hidden;
+border: 1px dotted #fff;
+border-radius: 4px;
+background: rgba(255,255,255,0.4);
+color: #fff;
+-webkit-transition: opacity 0.3s cubic-bezier(0.02, 0.01, 0.47, 1), box-shadow 0.2s cubic-bezier(0.02, 0.01, 0.47, 1), -webkit-transform 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+transition: opacity 0.3s cubic-bezier(0.02, 0.01, 0.47, 1), box-shadow 0.2s cubic-bezier(0.02, 0.01, 0.47, 1), -webkit-transform 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+transition: transform 0.3s cubic-bezier(0.02, 0.01, 0.47, 1), opacity 0.3s cubic-bezier(0.02, 0.01, 0.47, 1), box-shadow 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
+transition: transform 0.3s cubic-bezier(0.02, 0.01, 0.47, 1), opacity 0.3s cubic-bezier(0.02, 0.01, 0.47, 1), box-shadow 0.2s cubic-bezier(0.02, 0.01, 0.47, 1), -webkit-transform 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
 }
 
 .navbar-brand.bttn-default{
@@ -179,12 +159,10 @@ color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: nor
           transform: scale(1);
 }
 
-
 .dashboard-link:link{
   text-decoration: none;
   color: grey;
 }
-
 
 .dashboard-link:visited{
   text-decoration: none;
@@ -192,18 +170,13 @@ color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: nor
 }
 
 .dashboard-link:hover {
-
   text-decoration: underline;
-
 }
-
-
 
 .dashboard-link:active {
   text-decoration: underline;
   color: blue;
 }
-
 
 .bttn-fill {
   margin-top: 2rem;
@@ -319,10 +292,9 @@ color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: nor
           transform: scaleX(1);
 }
 
-
 .userContainer:hover::before {
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 
 .userContainer{
@@ -354,8 +326,6 @@ color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: nor
   transition: transform 0.28s ease-in-out, -webkit-transform 0.28s ease-in-out;
   z-index: -1;
 }
-
-
 
 .button-container {
   text-align: center;

@@ -1,5 +1,5 @@
 import React from 'react';
-import {reduxForm, Field, SubmissionError, focus, change} from 'redux-form';
+import {reduxForm, Field, change} from 'redux-form';
 //import { Control } from 'react-redux-form';
 import {connect} from 'react-redux';
 import {registerForm} from '../actions/forms';

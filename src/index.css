@@ -133,7 +133,7 @@ transition: transform 0.3s cubic-bezier(0.02, 0.01, 0.47, 1), opacity 0.3s cubic
 }
 
 .navbar-brand:hover,
-.navbar-brand: focus{
+.navbar-brand:focus{
     box-shadow: 0 30px 30px rgba(0,0,0,0.16);
   opacity: 0.85;
   -webkit-transition: opacity 0.2s cubic-bezier(0.02, 0.01, 0.47, 1), box-shadow 0.4s cubic-bezier(0.02, 0.01, 0.47, 1), -webkit-transform 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);

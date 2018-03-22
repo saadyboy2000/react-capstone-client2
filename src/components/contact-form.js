@@ -80,7 +80,7 @@ export class ContactForm extends React.Component {
             this.props.dispatch(change("contact", "Medications", this.props.userForm.Medications))
            }
             console.log(this.props.userForm)
-        },100)
+        },1000)
        
     }
 

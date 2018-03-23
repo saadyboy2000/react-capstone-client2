@@ -6,18 +6,15 @@ import {Link} from 'react-router-dom';
 
 
 
-//iterate over state for forms, filter for username
 
-//dashboard link should be hidden until
+
+//can we use this?
+//https://github.com/ReactTraining/react-router/issues/4056
 
 
 export class Dashboard extends React.Component {
     componentWillMount() {
         this.props.dispatch(fetchProtectedData());
-    }
-
-    componentDidMount(){
-        window.location.reload();
     }
 
     render() {

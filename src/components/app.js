@@ -9,6 +9,7 @@ import RegistrationPage from './registration-page';
 import {refreshAuthToken} from '../actions/auth';
 import ContactForm from './contact-form';
 
+
 export class App extends React.Component {
     componentWillReceiveProps(nextProps) {
         if (nextProps.loggedIn && !this.props.loggedIn) {
@@ -47,6 +48,7 @@ export class App extends React.Component {
                 <Route exact path="/dashboard" component={Dashboard} />
                 <Route exact path="/register" component={RegistrationPage} />
                 <Route exact path="/form" component={ContactForm} />
+                <Route exact path="/help" component={Help} />
             </div>
         );
     }

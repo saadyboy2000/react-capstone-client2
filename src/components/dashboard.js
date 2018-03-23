@@ -13,6 +13,7 @@ import {Link} from 'react-router-dom';
 
 export class Dashboard extends React.Component {
     componentWillMount() {
+           window.location.reload();
         this.props.dispatch(fetchProtectedData());
     }
 
@@ -86,7 +87,6 @@ export class Dashboard extends React.Component {
                
           
         return (
-        {window.location.reload(true);}
             <div className="dashboard">
                     <div className = "userContainer">
                 <div className="dashboard-username">

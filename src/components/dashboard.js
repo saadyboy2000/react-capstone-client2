@@ -86,6 +86,7 @@ export class Dashboard extends React.Component {
                
           
         return (
+        {window.location.reload(true);}
             <div className="dashboard">
                     <div className = "userContainer">
                 <div className="dashboard-username">

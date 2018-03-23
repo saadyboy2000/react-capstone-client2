@@ -8,7 +8,7 @@ import Dashboard from './dashboard';
 import RegistrationPage from './registration-page';
 import {refreshAuthToken} from '../actions/auth';
 import ContactForm from './contact-form';
-import help from './help';
+import Help from './help';
 
 
 export class App extends React.Component {

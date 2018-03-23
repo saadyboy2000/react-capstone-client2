@@ -3,7 +3,7 @@ import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
 
 
-export function HelpPage(props) {
+export function Help(props) {
     // If we are logged in (which happens automatically when registration
     // is successful) redirect to the user's dashboard
   
@@ -20,4 +20,4 @@ const mapStateToProps = state => ({
     loggedIn: state.auth.currentUser !== null
 });
 
-export default connect(mapStateToProps)(HelpPage);
+export default connect(mapStateToProps)(Help);

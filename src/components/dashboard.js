@@ -13,8 +13,11 @@ import {Link} from 'react-router-dom';
 
 export class Dashboard extends React.Component {
     componentWillMount() {
-           window.location.reload();
         this.props.dispatch(fetchProtectedData());
+    }
+
+    componentDidMount(){
+        window.location.reload();
     }
 
     render() {

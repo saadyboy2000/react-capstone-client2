@@ -33,6 +33,7 @@ export class Dashboard extends React.Component {
                  <li><span className="label">Patient email: </span><span className = "value">{form.email}</span></li>
                  <li><span className="label">Patient married status:</span><span className = "value"> {form.marital}</span></li>
                  <li><span className="label">Patient dominant hand:</span><span className = "value"> {form.hand}</span></li>
+                <li><span className="label">Interpreter:</span><span className = "value"> {form.interpreter}</span></li>
                  <li><span className="label">Main Medical Issue:</span><span className = "value"> {form.medicalIssue}</span></li>
                  <li><span className="label">Patient uses tobacco?:</span><span className = "value">{form.tobacco}</span></li>
                  <li><span className="label">Patient uses alcohol?:</span><span className = "value">{form.alcohol}</span></li>
@@ -62,6 +63,7 @@ export class Dashboard extends React.Component {
                  <li><span className="label">Patient email: </span><span className = "value">{form.email}</span></li>
                  <li><span className="label">Patient married status:</span><span className = "value"> {form.marital}</span></li>
                  <li><span className="label">Patient dominant hand:</span><span className = "value"> {form.hand}</span></li>
+                  <li><span className="label">Interpreter:</span><span className = "value"> {form.interpreter}</span></li>
                  <li><span className="label">Main Medical Issue:</span><span className = "value"> {form.medicalIssue}</span></li>
                  <li><span className="label">Patient uses tobacco?:</span><span className = "value">{form.tobacco}</span></li>
                  <li><span className="label">Patient uses alcohol?:</span><span className = "value">{form.alcohol}</span></li>

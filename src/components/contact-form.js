@@ -61,6 +61,7 @@ export class ContactForm extends React.Component {
             this.props.dispatch(change("contact","age",this.props.userForm.age))
             this.props.dispatch(change("contact", "marital", this.props.userForm.marital))
             this.props.dispatch(change("contact", "hand", this.props.userForm.hand))
+            this.props.dispatch(change("contact", "interpreter", this.props.userForm.interpreter))
             this.props.dispatch(change("contact", "medicalIssue", this.props.userForm.medicalIssue))
             this.props.dispatch(change("contact", "presentIllness", this.props.userForm.presentIllness))
             this.props.dispatch(change("contact", "tobacco", this.props.userForm.tobacco))

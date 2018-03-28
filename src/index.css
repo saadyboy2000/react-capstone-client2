@@ -103,65 +103,9 @@ color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: nor
 }
 
 .dashboard-link{
-  
-  color: #1d89ff;
-  padding: 3px 8px;
-  font-size: 12px;
-  font-family: inherit;
-  margin: 0;
-  padding: 0;
-  border-width: 0;
-  border-color: transparent;
-  background: transparent;
-  font-weight: 400;
-  cursor: pointer;
-  position: relative;
-  font-size: 20px;
-  font-family: inherit;
-  padding: 5px 12px;
-  overflow: hidden;
-  border-radius: 50px;
-  background: #fff;
-  color: #1d89ff;
-  -webkit-transition: all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
-  transition: all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
+  position:relative; visibility: visible;  bottom:18px;
+  font-family: cursive;
 }
-
-.dashboard-link:before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 50px;
-  background: currentColor;
-  content: '';
-  z-index: -1;
-  opacity: 0;
-  -webkit-transition: all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
-  transition: all 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
-  -webkit-transform: scale(0.2);
-          transform: scale(0.2);
-}
-
-.dashboard-link:hover,
-.dashboard-link:focus {
-  box-shadow: 0 1px 8px rgba(58,51,53,0.4);
-  -webkit-transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
-  transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
-.dashboard-link:hover:before,
-.dashboard-link:focus:before {
-  opacity: 0.15;
-  -webkit-transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
-  transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
-  -webkit-transform: scale(1);
-          transform: scale(1);
-}
-
 
 .navbar-brand{
 position:relative; visibility: visible; 

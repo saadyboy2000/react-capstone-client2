@@ -136,7 +136,7 @@ export class ContactForm extends React.Component {
                     validate={[required, nonEmpty]}
                 />
 
-                <label className="control-label">What is your marrital status?</label>
+                <label className="control-label">What is your marital status?</label>
 
                  <Field
                     className="form-group"

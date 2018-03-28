@@ -101,7 +101,7 @@ export class ContactForm extends React.Component {
             
            
                <div className = "form-link">
-                    <Link to= "/Dashboard" className = "dashboard-link">Go to Dashboard</Link>
+                    <Link to= "/Dashboard" className = "bttn-fill1">Go to Dashboard</Link>
                 </div>
             
             <form

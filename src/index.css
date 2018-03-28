@@ -104,6 +104,7 @@ color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: nor
 
 .dashboard-link{
   
+  color: #1d89ff;
   padding: 3px 8px;
   font-size: 12px;
   font-family: inherit;
@@ -152,8 +153,8 @@ color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: nor
           transform: scale(1.1);
 }
 
-.bttn-jelly:hover:before,
-.bttn-jelly:focus:before {
+.dashboard-link:hover:before,
+.dashboard-link:focus:before {
   opacity: 0.15;
   -webkit-transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
   transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);

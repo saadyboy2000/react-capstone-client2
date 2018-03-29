@@ -198,11 +198,12 @@ h1 small{
 }
 
 h1 {
-  margin: 0;
+  margin: 0 0 2em;
   height: 12vmin;
   width: 120vmin;
   display: flex;
   justify-content: center;
+  text-align: center;
   position: relative;
 }
 
@@ -223,7 +224,7 @@ h1::before {
 em {
   font-family: 'Josefin Sans', sans-serif;
   color: currentColor;
-  font-size: 15vmin;
+  font-size: 8vmin;
   position: relative;
   font-style: normal;
   width: 20vmin;

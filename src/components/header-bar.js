@@ -25,12 +25,7 @@ export class HeaderBar extends React.Component {
         return (
             <div className="header-bar">
                 <h1 className= "title">
-                <em>D</em>
-                <em>R </em>
-                <em>R</em>
-                <em>A</em>
-                <em>N</em>
-                <em>A </em>
+               
                 <em>F</em>
                 <em class ="planet left">O</em>
                 <em>R</em>

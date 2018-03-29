@@ -234,7 +234,7 @@ em {
 
 em.planet {
   -webkit-animation: planet-rotate 4s linear infinite;
-  /*animation: planet-rotate 4s linear infinite; */
+  animation: planet-rotate 4s linear infinite;
   position: relative;
 }
 

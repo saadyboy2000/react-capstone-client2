@@ -44,7 +44,7 @@ export class HeaderBar extends React.Component {
                 <em>T</em>
                 <em>E</em>
                 <em>R</em>
-                Dr. Rana Form Completer</h1>
+                </h1>
                 {logOutButton}
             </div>
         );

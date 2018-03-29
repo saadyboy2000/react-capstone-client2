@@ -59,7 +59,8 @@ h1 small{
 }
 
 .title{  
- margin: 0;
+ margin: auto;
+ max-width: 40rem;
   height: 100%;
   overflow: hidden;
   display: flex;

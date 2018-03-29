@@ -22,7 +22,7 @@ body *::before {
 }
 
 body{
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#e6e6e6));
+  background-image: #f2f2f2; /* to(#e6e6e6)); */
   /*background-image: linear-gradient(top, #f2f2f2, #e6e6e6);*/
 }
 

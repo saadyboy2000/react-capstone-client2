@@ -48,8 +48,8 @@ h1 small{
 }
 */
 .header-bar{
-  margin: 0;
-  height: 100%;
+  max-width: 40rem;
+  margin: auto;
 }
 
 .desc{

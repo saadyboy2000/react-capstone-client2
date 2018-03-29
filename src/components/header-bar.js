@@ -24,7 +24,27 @@ export class HeaderBar extends React.Component {
         }
         return (
             <div className="header-bar">
-                <h1 className= "title">Dr. Rana Form Completer</h1>
+                <h1 className= "title">
+                <em>D</em>
+                <em>R </em>
+                <em>R</em>
+                <em>A</em>
+                <em>N</em>
+                <em>A </em>
+                <em>F</em>
+                <em class ="planet left">O</em>
+                <em>R</em>
+                <em>M </em>
+                <em>C</em>
+                <em class="planet right">O</em>
+                <em>M</em>
+                <em>P</em>
+                <em>L</em>
+                <em>E</em>
+                <em>T</em>
+                <em>E</em>
+                <em>R</em>
+                Dr. Rana Form Completer</h1>
                 {logOutButton}
             </div>
         );

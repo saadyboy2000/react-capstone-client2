@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 import requiresLogin from './requires-login';
 import {fetchProtectedData} from '../actions/protected-data';
 import {Link} from 'react-router-dom';
+import {formReset} from '../actions/forms';
 
 
 
@@ -15,6 +16,7 @@ import {Link} from 'react-router-dom';
 export class Dashboard extends React.Component {
     componentWillMount() {
         this.props.dispatch(fetchProtectedData());
+        this.props.dispatch(formReset());
     }
 
     render() {

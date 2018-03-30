@@ -6,7 +6,8 @@ import {
 } from '../actions/protected-data';
 
 import {FORM_SUCCESS,
-        CHECKFORM_SUCCESS
+        CHECKFORM_SUCCESS,
+        FORM_RESET
 } from '../actions/forms';
 
 const initialState = {
@@ -43,6 +44,12 @@ export default function reducer(state = initialState, action) {
     else if (action.type === CLEAR_DATA){
         return Object.assign({}, state, {
             userForm: {}
+        });
+    }
+
+    else if(action.type === FORM_RESET){
+        return Object.assign({}, state, {
+         isFormCreated: false  
         });
     }
     return state;

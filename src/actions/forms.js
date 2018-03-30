@@ -94,3 +94,8 @@ export const checkForm = username =>dispatch =>{
             }
         });
 };
+
+export const FORM_RESET = 'FORM_RESET';
+export const formReset = () => ({
+    type: FORM_RESET
+});

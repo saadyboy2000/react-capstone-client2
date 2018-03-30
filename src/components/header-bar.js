@@ -30,6 +30,7 @@ export class HeaderBar extends React.Component {
                 <em>O</em>
                 <em>R</em>
                 <em>M </em>
+                <em> </em>
                 <em>C</em>
                 <em>O</em>
                 <em>M</em>

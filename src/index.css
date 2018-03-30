@@ -227,7 +227,7 @@ h1::before {
 
 em {
   font-family: 'Josefin Sans', sans-serif;
-  color: currentColor;
+  color: white;
   font-size: 8vmin;
   position: relative;
   font-style: normal;

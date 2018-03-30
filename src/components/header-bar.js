@@ -33,12 +33,32 @@ export class HeaderBar extends React.Component {
                 <em>R</em>
                 </h1>
         );
+        //where does this.props.loggedIn come from?
         if (this.props.loggedIn) {
             logOutButton = (
                
             <button className= "bttn-fill" onClick={() => this.logOut()}>Log out</button>
                     
                
+            );
+            title = ( 
+                <h1 className= "alt-title">
+               
+                <em>F</em>
+                <em>O</em>
+                <em>R</em>
+                <em>M </em>
+                <em> </em>
+                <em>C</em>
+                <em>O</em>
+                <em>M</em>
+                <em>P</em>
+                <em>L</em>
+                <em>E</em>
+                <em>T</em>
+                <em>E</em>
+                <em>R</em>
+                </h1>
             );  
         }
         return (

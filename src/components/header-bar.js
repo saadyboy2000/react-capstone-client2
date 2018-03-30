@@ -27,11 +27,11 @@ export class HeaderBar extends React.Component {
                 <h1 className= "title">
                
                 <em>F</em>
-                <em class ="planet left">O</em>
+                <em>O</em>
                 <em>R</em>
                 <em>M </em>
                 <em>C</em>
-                <em class="planet right">O</em>
+                <em>O</em>
                 <em>M</em>
                 <em>P</em>
                 <em>L</em>

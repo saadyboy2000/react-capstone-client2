@@ -65,7 +65,7 @@ h1 small{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #00008b;
+  background: #00008b; /*alt: #1abc9d;  */
   color: #ccc;
   padding: 30px;
   

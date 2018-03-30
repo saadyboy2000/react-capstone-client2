@@ -129,6 +129,7 @@ h1 small{
               90vw 5vh .3vmin rgba(255,255,255,.8);
 }
 
+/*
 .header-bar::after { 
   box-shadow: 67vw 35vh .2vmin .1vmin rgba(255,200,200,.8),
               89vw 13vh .2vmin .1vmin rgba(255,200,200,.8),
@@ -151,6 +152,7 @@ h1 small{
               48vw 72vh .2vmin .1vmin rgba(255,200,200,.8),
               91vw 68vh .2vmin .1vmin rgba(255,200,200,.8);
 }
+*/
 
 .title::before {
   box-shadow: 30vw 90vh .2vmin rgba(190,200,255,.9),

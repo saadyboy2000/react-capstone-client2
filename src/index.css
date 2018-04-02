@@ -62,6 +62,13 @@ h1 small{
   margin: auto;
 }
 
+.sampleDesc{
+  padding-top: 2rem;
+  max-width: 40rem;
+  margin: auto;
+  text-align: center;
+}
+
 .alt-title{  
  margin: auto;
   height: 100%;

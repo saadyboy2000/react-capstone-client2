@@ -51,6 +51,11 @@ h1 small{
   margin: auto;
 }
 
+.button-container{
+  margin: auto;
+  max-width: 40rem;
+}
+
 .desc{
   padding-top: 2rem;
   max-width: 40rem;
@@ -415,7 +420,7 @@ transition: transform 0.3s cubic-bezier(0.02, 0.01, 0.47, 1), opacity 0.3s cubic
 }
 
 .bttn-fill {
-  margin: auto;
+ /* margin: auto; */
   margin-top: 2rem;
   max-width: 40rem;
   padding: 0;

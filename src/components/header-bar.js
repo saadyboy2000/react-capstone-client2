@@ -36,9 +36,10 @@ export class HeaderBar extends React.Component {
         //where does this.props.loggedIn come from?
         if (this.props.loggedIn) {
             logOutButton = (
-               
+            
+            <div className ="button-container">   
             <button className= "bttn-fill" onClick={() => this.logOut()}>Log out</button>
-                    
+            </div>       
                
             );
             title = ( 

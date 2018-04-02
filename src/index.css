@@ -47,7 +47,7 @@ h1 small{
 }
 */
 .header-bar{
-  max-width: 40rem;
+  
   margin: auto;
 }
 
@@ -73,7 +73,6 @@ h1 small{
 
 .title{  
  margin: auto;
- max-width: 40rem;
   height: 100%;
   overflow: hidden;
   display: flex;
